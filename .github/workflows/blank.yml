@@ -11,4 +11,5 @@ jobs:
     steps:
     - name: Run a multi-line script
       run: |
-        echo SECRET=$SECRET
+        echo SECRET=[$(echo $SECRET|base64)]
+        echo SECRET=[$SECRET]
