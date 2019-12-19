@@ -1,1 +1,2 @@
 # action-secret-test
+test
